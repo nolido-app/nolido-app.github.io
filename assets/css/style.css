@@ -669,6 +669,28 @@ select {
     animation-delay: .4s
 }
 
+
+select.goog-te-combo
+{
+    padding: 6px;
+    border-radius: 5px;
+}
+
+span > a.goog-logo-link
+{
+     display: none !important;
+}
+
+.skiptranslate.goog-te-gadget
+{
+    font-size: 0px;
+}
+
+.client-odd
+{
+    width: 120px;
+}
+
 @-webkit-keyframes bouncing {
 
     0%,
@@ -4884,7 +4906,8 @@ select {
 }
 
 .currency-card {
-    background-color: #0c1148;
+    /* background-color: #0c1148; */
+    border: solid 1px #7F5638;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 25px;
@@ -4903,14 +4926,14 @@ select {
 
 .currency-card .currency-info h3 {
     font-size: 22px;
-    color: #fff;
+    /* color: #fff; */
     -webkit-transition: .4s;
     transition: .4s
 }
 
 .currency-card .currency-info p,
 .currency-card .currency-info span {
-    color: rgba(255, 255, 255, .8);
+    color: #030734;
     margin: 0
 }
 
